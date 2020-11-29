@@ -141,8 +141,7 @@ p {
 }
 /*  global classes */
 header {
-  background-color: #f2f2f2;
-  height: 110px;
+  background: var(--clr-grey-10);
   padding: 10px 0;
 }
 
@@ -206,6 +205,8 @@ nav {
   text-align: left;
   display: flex;
   justify-content: space-between;
+  border: 1px solid;
+  border-color: var(--clr-gold);
 }
 
 .lang-menu ul li a {
@@ -213,10 +214,12 @@ nav {
   width: 125px;
   padding: 5px 10px;
   display: block;
+  color: var(--clr-gold);
 }
 
 .lang-menu ul li:hover {
   background-color: #f2f2f2;
+  color: white;
 }
 
 .lang-menu ul li a:before {
